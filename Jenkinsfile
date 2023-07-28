@@ -29,7 +29,7 @@ pipeline{
 			}
 		}
 
-		stage('Push') {
+		stage('Pushing') {
 
 			steps {
 				sh 'docker push thetips4you/nodeapp_test:latest'
